@@ -1,20 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+
 body{
 	padding:0px;
 	margin:0px;
 	background-color:rgb(248,249,251);
 }
 
-.belakang-taman-balai-kota, .belakang-taman-alun-alun-bandung, .belakang-taman-lansia{
+/*.belakang-taman-balai-kota, .belakang-taman-alun-alun-bandung, .belakang-taman-lansia{
 	background-repeat:no-repeat;
 	background-size:100% 337px;
 	width:100%;
 	height:100%;
 	float:left;
-}
+}*/
 
-.belakang-taman-balai-kota{
+/*.belakang-taman-balai-kota{
 	background-image:linear-gradient(to bottom, transparent, rgb(248,249,251)), url('../images/background.png') ;
-}
+}*/
 
 .belakang-taman-alun-alun-bandung{
 	background-image:linear-gradient(to bottom, transparent, rgb(248,249,251)), url('../images/tama.png') ;
@@ -81,15 +85,6 @@ body{
 	width:100%;
 	margin:90px 0px 0px 0px;
 	/*background-color:red;*/
-}
-
-
-.content{
-	width:40%;
-	font-family: 'Roboto', sans-serif;
-	line-height:28px;
-	margin:0px auto;
-	display:block;
 }
 
 .belakang-slider{
@@ -177,17 +172,6 @@ body{
 
 .next i{
 	color:rgba(0,0,0,0.9)
-}
-
-.belakang-map{
-	width:100%;
-	float:left;
-	height:500px;
-	margin:40px 0px 0px 0px;
-	/*overflow:relative;*/
-	position:relative;
-	/*background-color:red;*/
-
 }
 
 .map-balai-kota:before , .map-balai-kota:after{
